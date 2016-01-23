@@ -1,0 +1,33 @@
+.plot {
+	width : 100%;
+	height : 300px;
+}
+
+#plots {
+	float : left;
+	width : 75%;
+
+}
+
+#menu {
+	float : right;
+	width : 20%;
+}
+
+#categories {
+	height : 35%;
+	overflow-y : auto;
+}
+
+#buttons {
+    text-align : left;
+}
+
+h1 {
+	font-family : sans-serif;
+	font-weight : normal;
+}
+
+body {
+	font-family : sans-serif;
+}
