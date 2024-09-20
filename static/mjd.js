@@ -8,5 +8,6 @@ function display_ct() {
     ms = Date.now()
     MJD = Math.floor((ms / 1000 / 86400 + 40587))
     document.getElementById('ct').innerHTML = "The current MJD is " + MJD;
+    document.getElementById('ct_title').innerHTML = "mjd.today - " + MJD;
     display_c();
  }
